@@ -215,9 +215,9 @@ function esVocal(letra){
   //Escribe tu código aquí
  if (letra==="a"||letra==="e"||letra==="i"||letra==="o"||letra==="u")
 {return("es vocal")} 
- else{
+ else
   if (letra.length>1){return("dato incorrecto");}
-else {
+else 
 return ("dato incorrecto");
 }
 
@@ -259,4 +259,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-}.
+};
